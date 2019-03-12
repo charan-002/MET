@@ -1,0 +1,129 @@
+                            BATCH-2
+
+
+1. Which is more faster between ASPX View Engine and Razor View Engine.
+A. ASPX View Engine
+ B. Razor View Engine 
+C. Both A & B 
+D. None
+
+Answer OPTION : A
+
+
+2. . . . . . helps you to maintain data when you move from controller to view.
+A. View Bag 
+B. View Data 
+C. Temp Data 
+D. None of above
+
+Answer: Option B
+
+3. In which format data can be return from XML into table?
+A. DataSet
+ B. Datatable
+ C. A and B 
+D. None
+
+Answer: Option A
+
+4. Which filter will be execute at last using ASP.Net MVC?
+A. Action filters
+ B. Authorization filters 
+C. Exception filters
+ D. Response filters
+
+Answer: Option C
+
+5. Which of the following view file types are supported in MVC?
+A. .cshtml 
+B. .vbhtml 
+C. .aspx 
+D. All of the above
+
+Answer: Option D
+
+6. Which of the following is TRUE?
+A. Action method can be static method in a controller class 
+B. Action method can be private method in a controller class 
+C. Action method can be protected method in a controller class 
+D. Action method must be public method in a controller class
+
+Answer: Option D
+
+7. In the model-view-controller (MVC) architecture, the model defines the
+A. Data-access layer 
+B. Presentation layer
+ C. Business-logic layer 
+D. Interface layer
+
+Answer: Option C
+
+8. Which of following is TRUE?
+A. The controller redirects incoming request to model
+ B. The controller executes an incoming request
+ C. The controller controls the data
+ D. The controller render html to view
+
+Answer: Option B
+
+9. For controller action method . . . . . returns nothing as the result.
+A. ResultEmpty 
+B. EmptyResult 
+C. ReturnEmpty 
+D. EmptyReturn
+
+Answer: Option B
+
+10. Which of the following method of html helper generates html control based on the data type of specified property?
+A. Html.TextBox 
+B. Html.Password 
+C. Html.Editor 
+D. Html.Display
+
+Answer: Option C
+
+11. What is default authentication in Internet Information Services (IIS)?
+A. Standard User 
+B. Administrator 
+C. Anonymous 
+D. None
+
+Answer: Option C
+
+12. FilterConfig.cs file is under in which App folder?
+A. App_Data 
+B. App_Start 
+C. Content 
+D. Filters
+
+Answer: Option B
+
+Q 13 - . How to return the JSON from action method in ASP.Net MVC?
+
+A - return JSON()
+
+B - return ActionResult()
+
+C - return viewResult()
+
+D - return Result()
+
+E - C and D both
+
+Answer : A
+
+14. Which Name space is used to create chart using ASP.Net MVC?
+A. using System.Web.MVC
+ B. using System.Web.Helpers
+ C. using System.Web.Chart
+ D. All
+
+Answer: Option B
+
+15. Which of the following methods are used to render partial view?
+A. Html.Partial()
+ B. Html.RenderPartial()
+ C. Html.RenderAction() 
+D. All of the above
+
+Answer: Option D

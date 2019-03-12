@@ -1,0 +1,138 @@
+Question 1: What is scaffolding?
+
+Answer: Quickly generating a basic outline of your software that you can then edit and customize.
+
+
+
+
+
+Question 2: Can you change the action method name?
+
+Answer: Yes, we can change the action method name using the ActionName attribute. Now the action method will be called by the name defined by the ActionName attribute.
+
+
+
+
+
+Question 3: How to prevent a controller method from being accessed by an URL?
+
+Answer: By making the method private or protected but sometimes we need to keep this method public. This is where the NonAction attribute is relevant.
+
+
+
+
+
+
+Question 4: Mention how can maintain session in MVC?
+
+Session can be maintained in MVC by three ways tempdata, viewdata, and viewbag.
+
+
+
+Question 5: Mention what is the difference between “ActionResult” and “ViewResult” ?
+
+“ActionResult” is an abstract class while “ViewResult” is derived from “AbstractResult” class.  “ActionResult” has a number of derived classes like “JsonResult”, “FileStreamResult” and “ViewResult” .
+
+“ActionResult” is best if you are deriving different types of view dynamically.
+
+
+
+
+
+Question 6: Mention what are main benefits of using MVC?
+
+There are two key benefits of using MVC
+
+As the code is moved behind a separate class file, you can use the code to a great extent
+As behind code is simply moved to.NET class, it is possible to automate UI testing. This gives an opportunity to automate manual testing and write unit tests.
+
+
+
+
+Question 7: What is Razor View Engine?
+
+Razor is the first major update to render HTML in MVC 3. Razor was designed specifically for view engine syntax. Main focus of this would be to simplify and code-focused templating for HTML generation. Below is the sample of using Razor:
+
+
+
+
+Question 8: What is the use of ViewModel in MVC?
+
+ViewModel is a plain class with properties, which is used to bind it to strongly typed view. ViewModel can have the validation rules defined for its properties using data annotations.
+
+
+
+
+
+Question 9: Explain JSON ?
+
+JavaScript Object Notation (JSON) binding support started from MVC3 onwards via the new JsonValueProviderFactory, which allows the action methods to accept and model-bind data in JSON format. This is useful in Ajax scenarios like client templates and data binding that need to post data back to the server.
+
+
+
+
+Question 10: Which are the important namespaces used in MVC?
+
+Below are the important namespaces used in MVC -
+
+System.Web.Mvc
+
+System.Web.Mvc.Ajax
+
+System.Web.Mvc.Html
+
+System.Web.Mvc.Async
+
+
+Question 11: What is the difference between ViewBag and ViewData in MVC?
+
+ViewBag is a wrapper around ViewData, which allows to create dynamic properties. Advantage of viewbag over viewdata will be –
+
+In ViewBag no need to typecast the objects as in ViewData.
+
+ViewBag will take advantage of dynamic keyword which is introduced in version 4.0. But before using ViewBag we have to keep in mind that ViewBag is slower than ViewData.
+
+
+
+
+Question 12: Explain TempData in MVC?
+
+TempData is again a key, value pair as ViewData. This is derived from “TempDataDictionary” class. TempData is used when the data is to be used in two consecutive requests, this could be between the actions or between the controllers. This requires typecasting in view.
+
+
+
+
+Question 13: What are HTML Helpers in MVC?
+
+HTML Helpers are like controls in traditional web forms. But HTML helpers are more lightweight compared to web controls as it does not hold viewstate and events.
+
+HTML Helpers returns the HTML string which can be directly rendered to HTML page. Custom HTML Helpers also can be created by overriding “HtmlHelper” class.
+
+
+
+
+
+Question 14: Explain the methods used to render the views in MVC?
+
+Below are the methods used to render the views from action -
+
+View()?—?To return the view from action.
+
+PartialView()?—?To return the partial view from action.
+
+RedirectToAction()?—?To Redirect to different action which can be in same controller or in different controller.
+
+Redirect()?—?Similar to “Response.Redirect()” in webforms, used to redirect to specified URL.
+
+RedirectToRoute()?—?Redirect to action from the specified URL but URL in the route table has been matched.
+
+
+
+
+Question 15:  What is PartialView in MVC?
+
+PartialView is similar to UserControls in traditional web forms. For re-usability purpose partial views are used. Since it’s been shared with multiple views these are kept in shared folder. Partial Views can be rendered in following ways –
+
+Html.Partial()
+
+Html.RenderPartial()
